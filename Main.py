@@ -25,7 +25,7 @@ class KairuAssistant:
         
         # --- 画像（Kairu.png）の読み込み ---
         try:
-            self.img_path = get_path("Kairu.png") # ここをKairu.pngに変更済み
+            self.img_path = get_path("20200307093104.png") # ここをKairu.pngに変更済み
             self.img = Image.open(self.img_path).convert("RGBA")
             self.photo = ImageTk.PhotoImage(self.img)
         except Exception as e:
